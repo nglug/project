@@ -7,9 +7,18 @@
   top: -1px;
 }
 
-.MG {
-  width: 40px;
-  height: 40px; 
-  position: absolute;
-  
+.B{
+  background-color: lightblue;
+  width: 100px;
+  height: 20px;
+  border-radius: 100px;
+  margin: 100px;
+}
+.B:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.B:active {
+  opacity: 0.4;
+  margin: 101px;
 }
